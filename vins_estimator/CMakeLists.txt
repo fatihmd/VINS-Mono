@@ -15,9 +15,9 @@ find_package(catkin REQUIRED COMPONENTS
     cv_bridge
     )
 
-find_package(OpenCV REQUIRED)
-
-# message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
+#find_package(OpenCV REQUIRED)
+find_package(OpenCV 3.2.0 PATHS /home/fmd/opencv/opencv3.2_installed)
+message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
 
 find_package(Ceres REQUIRED)
 

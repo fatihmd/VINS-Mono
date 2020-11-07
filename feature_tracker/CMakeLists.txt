@@ -13,7 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
     camera_model
     )
 
-find_package(OpenCV REQUIRED)
+#find_package(OpenCV REQUIRED)
+find_package(OpenCV 3.2.0 PATHS /home/fmd/opencv/opencv3.2_installed)
 
 catkin_package()
 
